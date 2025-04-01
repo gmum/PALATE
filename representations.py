@@ -1,3 +1,5 @@
+# This code has been adapted from: https://github.com/layer6ai-labs/dgm-eval/blob/master/dgm_eval/representations.py
+
 import numpy as np
 from tqdm import tqdm
 import torch

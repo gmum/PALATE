@@ -1,3 +1,5 @@
+# This script contains modified parts of code from repository: https://github.com/layer6ai-labs/dgm-eval
+
 import os
 import csv
 import uuid
@@ -243,10 +245,9 @@ def compute_representations(path, model, num_workers, device, args):
 
     return representations
 
-    """Save representations and other info to disk at file_path"""
-
 
 def save_outputs(output_dir, path, reps, model, dataloader, nsample):
+    """Save representations and other info to disk at file_path"""
     # Create a unique file path for saving
     out_path = get_path(output_dir, path, model, nsample)
 

@@ -1,3 +1,5 @@
+# This code has been adapted from: https://github.com/layer6ai-labs/dgm-eval/blob/master/dgm_eval/dataloaders.py
+
 import os
 import sys
 import pathlib
@@ -100,7 +102,6 @@ class CustomDataLoader:
             self.get_local_dataset()
         else:
             raise Exception(f"Path {self.path} does not exist.")
-
 
     def get_local_dataset(self):
         """

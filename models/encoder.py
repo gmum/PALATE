@@ -1,3 +1,5 @@
+# https://github.com/layer6ai-labs/dgm-eval/blob/master/dgm_eval/models/encoder.py
+
 from abc import ABC, abstractmethod
 
 import torch.nn as nn
