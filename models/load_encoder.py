@@ -1,3 +1,5 @@
+# This code has been adapted from: https://github.com/layer6ai-labs/dgm-eval/blob/master/dgm_eval/models/load_encoder.py
+
 import inspect
 from .dinov2 import DINOv2Encoder
 

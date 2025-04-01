@@ -118,11 +118,6 @@ For all ImageNet experiments, we use training and testing data that can be acces
 
 Data loading is handled in the same way as CIFAR-10.
 
-
-## License
-
-This project uses code from [dgm-eval](https://github.com/layer6ai-labs/dgm-eval), which is licensed under the MIT License by Layer 6 AI.
-
 ## BibTeX
 
 ```
