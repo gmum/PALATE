@@ -94,6 +94,8 @@ options:
 
 ## Datasets
 
+All of the data samples we use are provided by [Stein et al [2023]](https://arxiv.org/abs/2306.04675), who have open-sourced a set of samples from a variety of SOTA models on different datasets.
+
 ### CIFAR-10 Experiments
 
 For all CIFAR-10 experiments, we use training, testing and pre-generated samples these can be accessed from [this Google Drive folder](https://drive.google.com/drive/folders/1r38UxZQcREoNklnzQFj9kxUXMqVsceOQ).
